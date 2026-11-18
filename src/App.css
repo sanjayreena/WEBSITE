@@ -1,14 +1,14 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 
 :root {
-  
-  --accent: #00B9AC;
-  --background: #080A09;
+  /* --accent: #00B9AC; */
+
+  --accent: #7f00ff;
+  --background: #080a09;
   --surface: #101310;
-  --border: #282D29;
-  --text: #F5F7F5;
-  --muted: #888F89;
+  --border: #282d29;
+  --text: #f5f7f5;
+  --muted: #888f89;
 }
 
 * {
@@ -20,7 +20,7 @@
 body {
   background: var(--background);
   color: var(--text);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .registration-page {
@@ -41,7 +41,7 @@ body {
 
 .form-panel {
   padding: 45px 55px;
-  background: #0B0D0B;
+  background: #0b0d0b;
 }
 
 .brand {
@@ -139,7 +139,7 @@ body {
 .field label {
   font-size: 12px;
   font-weight: 600;
-  color: #E6EAE6;
+  color: #e6eae6;
   margin-bottom: 10px;
 }
 
@@ -152,7 +152,7 @@ body {
 .field textarea {
   width: 100%;
   background: #111411;
-  border: 1px solid #2A302B;
+  border: 1px solid #2a302b;
   color: white;
   padding: 15px;
   border-radius: 9px;
@@ -204,7 +204,7 @@ body {
   align-items: center;
   gap: 10px;
   background: #111411;
-  border: 1px solid #2A302B;
+  border: 1px solid #2a302b;
   padding: 13px 18px;
   border-radius: 9px;
   cursor: pointer;
@@ -236,7 +236,7 @@ body {
   gap: 12px;
   font-size: 12px;
   line-height: 1.7;
-  color: #A3AAA4;
+  color: #a3aaa4;
   cursor: pointer;
 }
 
@@ -281,7 +281,7 @@ body {
   text-align: center;
   font-size: 10px;
   letter-spacing: 2px;
-  color: #535A54;
+  color: #535a54;
   margin-top: 25px;
 }
 
@@ -348,7 +348,7 @@ body {
 
 .visual-content p {
   max-width: 350px;
-  color: #C2C8C3;
+  color: #c2c8c3;
   font-size: 14px;
   line-height: 1.8;
 }
@@ -360,7 +360,7 @@ body {
   margin-top: 50px;
   font-size: 10px;
   letter-spacing: 1.5px;
-  color: #A5ADA6;
+  color: #a5ada6;
 }
 
 .visual-line {
