@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
 
 :root {
-  /* --accent: #00B9AC; */
+  --accent: #00B9AC;
 
-  --accent: #7f00ff;
+  /* --accent: #7f00ff; */
   --background: #080a09;
   --surface: #101310;
   --border: #282d29;
